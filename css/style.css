@@ -1,0 +1,49 @@
+div {
+	display: table;
+	margin: auto;
+	text-align: center;
+}
+
+p {
+	float: left;
+	font-size: xx-large;
+	background-color: #2e2e2a;
+	font-family: sans-serif;
+	line-height: 30px;
+	width: 260px;
+	height: 70px;
+	margin-right: 10px;
+	line-height: 70px;
+	box-shadow: 2px 2px 2px #BBB;
+}
+
+a:not(.flinks) {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+a:hover:not(.flinks) {
+	background-color: #f9a91a;
+}
+
+a:active:not(.flinks) {
+	color: #2e2e2a;
+}
+
+h5 {
+	color: #6E6E74;
+	clear: left;
+	text-align: center;
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.flinks {
+	text-decoration: none;
+	color: #2e2e2a;
+}
+.flinks:hover {
+	color: #f9a91a;
+
+}
